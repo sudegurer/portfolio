@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Sude Gürer — Statistics & Functional Data Research</title>
-<meta name="description" content="Portfolio of Sude Gürer — statistics researcher working on functional data analysis, deep learning, and data engineering.">
+<meta name="description" content="Portfolio of Sude Gürer — statistics researcher working on functional data analysis and deep learning.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
@@ -388,7 +388,7 @@
   <section class="hero" style="border-top:none;">
     <p class="eyebrow">MSc Statistics · Marmara University</p>
     <h1 class="name">Sude Gürer</h1>
-    <p class="tagline">I study how to let models learn the shape of functions instead of assuming it — working across functional data analysis, deep learning, and the data engineering that gets real data ready for both.</p>
+    <p class="tagline">I study how to let models learn the shape of functions instead of assuming it — working on functional data analysis and deep learning, with an eye for how research translates into usable, well-built software.</p>
     <div class="hero-links">
       <a href="mailto:sudegurer4@gmail.com">sudegurer4@gmail.com</a>
       <a href="https://github.com/sudegurer" target="_blank" rel="noopener">github.com/sudegurer</a>
@@ -407,7 +407,7 @@
     <div class="section-head">
       <h2 class="section-title">About</h2>
     </div>
-    <p class="about-text">I'm a graduate student in the Department of Statistics at Marmara University,focusing on function-on-function regression and deep learning for functional data. As a scholarship researcher on a TÜBİTAK-funded project — my second, after leading a TÜBİTAK 2209-A project as an undergraduate — I co-authored AdaDTN, a neural architecture that learns its own basis functions rather than fixing them in advance; this work now forms the basis of my ongoing MSc thesis. The same instinct draws me to data engineering, where I've built ETL pipelines and distributed processing workflows to get messy, real-world data into a shape a model can actually learn from.</p>
+    <p class="about-text">I'm a graduate student in the Department of Statistics at Marmara University, focusing on function-on-function regression and deep learning for functional data. As a scholarship researcher on a TÜBİTAK-funded project — my second, after leading a TÜBİTAK 2209-A project as an undergraduate — I co-authored AdaDTN, a neural architecture that learns its own basis functions rather than fixing them in advance; this work now forms the basis of my ongoing MSc thesis. Outside of research, I've explored data engineering tools (ETL pipelines, distributed processing) through a couple of independent projects, out of curiosity about how data gets prepared before it ever reaches a model.</p>
     <div class="stat-strip">
       <div class="stat"><span class="stat-num">1</span><span class="stat-label">peer-reviewed paper</span></div>
       <div class="stat"><span class="stat-num">2</span><span class="stat-label">manuscripts in preparation</span></div>
@@ -473,26 +473,16 @@
         <span class="tag">Robust Statistics</span>
         <span class="tag">Peer-Reviewed</span>
       </div>
-      <a class="card-link" href="#" target="_blank" rel="noopener">View publication →</a>
+      <a class="card-link" href="https://link.springer.com/article/10.1007/s11222-024-10464-y" target="_blank" rel="noopener">View publication →</a>
     </article>
   </section>
 
   <section id="projects">
     <div class="section-head">
       <h2 class="section-title">Projects</h2>
-      <span class="section-note">data engineering · open source</span>
+      <span class="section-note">open source · side projects</span>
     </div>
     <div class="proj-grid">
-      <div class="proj-card">
-        <h3>Crypto Data ETL Pipeline</h3>
-        <p>End-to-end ETL pipeline extracting daily market data from the CoinGecko API into a dimensionally modeled PostgreSQL warehouse, fully containerized with Docker.</p>
-        <a class="card-link" href="https://github.com/sudegurer/crypto-etl-project" target="_blank" rel="noopener">View on GitHub →</a>
-      </div>
-      <div class="proj-card">
-        <h3>PySpark CRM Segmentation</h3>
-        <p>Customer segmentation on 500K synthetic CRM records using distributed PySpark processing and K-Means clustering on RFM features.</p>
-        <a class="card-link" href="https://github.com/sudegurer/spark-crm-segmentation" target="_blank" rel="noopener">View on GitHub →</a>
-      </div>
       <div class="proj-card">
         <h3>PLSRegs (R package)</h3>
         <p>An R package collecting multiple partial least squares regression methods, developed as part of the TÜBİTAK 2209-A research project on multicollinearity in statistical modeling.</p>
@@ -502,6 +492,16 @@
         <h3>robsfplsr (R package)</h3>
         <p>Robust, locally sparse scalar-on-function PLS regression toolkit accompanying the published Statistics and Computing paper.</p>
         <a class="card-link" href="https://github.com/sudegurer/robsfplsr" target="_blank" rel="noopener">View on GitHub →</a>
+      </div>
+      <div class="proj-card">
+        <h3>Crypto Data ETL Pipeline</h3>
+        <p>Small independent project: an end-to-end ETL pipeline extracting daily market data from the CoinGecko API into a PostgreSQL database, containerized with Docker.</p>
+        <a class="card-link" href="https://github.com/sudegurer/crypto-etl-project" target="_blank" rel="noopener">View on GitHub →</a>
+      </div>
+      <div class="proj-card">
+        <h3>PySpark CRM Segmentation</h3>
+        <p>Small independent project: customer segmentation on synthetic CRM records using PySpark and K-Means clustering on RFM features.</p>
+        <a class="card-link" href="https://github.com/sudegurer/spark-crm-segmentation" target="_blank" rel="noopener">View on GitHub →</a>
       </div>
     </div>
   </section>
@@ -525,38 +525,26 @@
     <div class="skill-group">
       <span class="skill-group-label">Programming</span>
       <div class="chip-row">
-        <span class="chip">Python</span>
-        <span class="chip">R</span>
+        <span class="chip">R (tidyverse, glmnet, caret, fda, refund)</span>
+        <span class="chip">Python (Scikit-learn)</span>
         <span class="chip">SQL</span>
         <span class="chip">MATLAB</span>
       </div>
     </div>
 
     <div class="skill-group">
-      <span class="skill-group-label">Big Data & Engineering</span>
+      <span class="skill-group-label">Also explored (side projects)</span>
       <div class="chip-row">
-        <span class="chip">Apache Spark / PySpark</span>
-        <span class="chip">Apache Airflow</span>
-        <span class="chip">PostgreSQL</span>
+        <span class="chip">PySpark</span>
         <span class="chip">Docker</span>
-        <span class="chip">Dimensional Modeling</span>
-      </div>
-    </div>
-
-    <div class="skill-group">
-      <span class="skill-group-label">Machine Learning</span>
-      <div class="chip-row">
-        <span class="chip">Scikit-learn</span>
-        <span class="chip">TensorFlow</span>
-        <span class="chip">XGBoost</span>
-        <span class="chip">LSTM / Neural Networks</span>
+        <span class="chip">PostgreSQL</span>
       </div>
     </div>
   </section>
 
   <footer id="contact">
     <h2 class="contact-title">Get in touch</h2>
-    <p class="contact-text">Open to data-focused roles. Happy to talk about functional data, deep learning, or moving messy data into something a model can use.</p>
+    <p class="contact-text">Open to research assistant positions and academic opportunities in statistics and functional data analysis. Happy to talk about my work or potential collaborations.</p>
     <div class="contact-links">
       <a href="mailto:sudegurer4@gmail.com">sudegurer4@gmail.com</a>
       <a href="https://github.com/sudegurer" target="_blank" rel="noopener">GitHub</a>
